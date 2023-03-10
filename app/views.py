@@ -10,13 +10,11 @@ def rocky(request):
     return HttpResponse('<marquee><h1>Rakesh and kavitha both are good friends</h1></marquee>')
 
 def manu(request):
-    return HttpResponse('<marquee><h1>kavi manu sujji josh best friends forevr</h1></marquee>')
+    return HttpResponse('<marquee><h1>kavi manu sujji josh best friends forever</h1></marquee>')
 
 def satti(request):
     return HttpResponse('<marquee><h1>you are the cutest Brother in this world Always were and always will be i love you brother</h1></marquee> ')
 
-def kavi(request):
-    return HttpResponse('<marquee><h1>Ramakrishna Nageswaramma Sathish Kavitha this my beautiful Family</h1></marquee>')
 
 def ramya(request):
     return HttpResponse('<h1>Ramya and kavitha both are good best frends forever</h1>')
